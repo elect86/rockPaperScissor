@@ -27,7 +27,7 @@ object Game {
             }
             Outcome.Paper -> when(b) {
                 Outcome.Rock -> playerA.wins++
-                else -> playerA.wins
+                else -> playerA.wins++
             }
             Outcome.Scissor -> when(b) {
                 Outcome.Rock -> playerB.wins++
